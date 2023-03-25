@@ -16,7 +16,8 @@ __AWS Services :- EC2 Instances, VPC, Nat Gateway , Internet Gateway, security g
     -  1 Classic Load balancer.
     -  3 Security Groups (bastion host,Private Ec2 and Load balancer)
     -  with the help of provisioner we will copy the file from local(private key file you copied) to Bastion host,Run some commands on remote host.
-+  Now Run Terraform Init ,Terraform validate ,Terraform plan ,Terraform apply and Terraform destroy.
++  Now Run Terraform Init ,Terraform validate ,Terraform plan ,Terraform apply 
++  to destroy your resources use Terraform destroy command.
 
 + Project Architecture
 

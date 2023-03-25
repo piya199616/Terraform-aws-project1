@@ -19,5 +19,5 @@ __AWS Services :- EC2 Instances, VPC, Nat Gateway , Internet Gateway, security g
 
 + Project Architecture
 
-/
+
 <img width="404" alt="img1" src="https://user-images.githubusercontent.com/98099702/227704381-e86e5dcb-56ac-497b-a298-0b9cd490b12e.png">

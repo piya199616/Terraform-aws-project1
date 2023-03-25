@@ -2,10 +2,10 @@
 
 __AWS Services :- EC2 Instances, VPC, Nat Gateway , Internet Gateway, security groups, Classic Load balancer.__
 
-**So Here We will Deploy our Application in 2 Availability Zones **
+** So Here We will Deploy our Application in 2 Availability Zones **
 
 
-* Make sure you understand terraform and AWS *
+* Make sure you understand terraform and AWS 
 + Install Terraform CLI on your local system and Configure AWS credentials with AWS configure.
 + Create a Terraform settings block which includes provider details and terraform version details.
 +  Create bash script for installation of Httpd

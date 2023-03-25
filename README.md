@@ -10,11 +10,12 @@ __AWS Services :- EC2 Instances, VPC, Nat Gateway , Internet Gateway, security g
 + Create a Terraform settings block which includes provider details and terraform version details.
 +  Create bash script for installation of Httpd
 +  Create a folder and copy your private key of private ec2 instances. 
-+  1 VPC ,6 subenets (public,Private,Database) ,1 Nat gateway in Public Subnet . 1 Internet Gateway attcahed to VPC.
-+  1 Bastion host and 2 private EC2 insatnces in 2 AZs.
-+  1 Classic Load balancer.
-+  3 Security Groups (bastion host,Private Ec2 and Load balancer)
-+  with the help of provisioner we will copy the file from local(private key file you copied) to Bastion host,Run some commands on remote host.
++  Resources Used
+    - 1 VPC ,6 subenets (public,Private,Database) ,1 Nat gateway in Public Subnet . 1 Internet Gateway attcahed to VPC.
+    - 1 Bastion host and 2 private EC2 insatnces in 2 AZs.
+    -  1 Classic Load balancer.
+    -  3 Security Groups (bastion host,Private Ec2 and Load balancer)
+    -  with the help of provisioner we will copy the file from local(private key file you copied) to Bastion host,Run some commands on remote host.
 +  Now Run Terraform Init ,Terraform validate ,Terraform plan ,Terraform apply and Terraform destroy.
 
 + Project Architecture

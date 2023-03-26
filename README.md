@@ -3,6 +3,10 @@
 __AWS Services :- EC2 Instances, VPC, Nat Gateway , Internet Gateway, security groups, Classic Load balancer.__
 
 ** So Here We will Deploy our Application in 2 Availability Zones **
++ Project Architecture
+
+
+<img width="404" alt="img1" src="https://user-images.githubusercontent.com/98099702/227704381-e86e5dcb-56ac-497b-a298-0b9cd490b12e.png">
 
 
 * Make sure you understand terraform and AWS 
@@ -19,7 +23,3 @@ __AWS Services :- EC2 Instances, VPC, Nat Gateway , Internet Gateway, security g
 +  Now Run Terraform Init ,Terraform validate ,Terraform plan ,Terraform apply 
 +  to destroy your resources use Terraform destroy command.
 
-+ Project Architecture
-
-
-<img width="404" alt="img1" src="https://user-images.githubusercontent.com/98099702/227704381-e86e5dcb-56ac-497b-a298-0b9cd490b12e.png">
